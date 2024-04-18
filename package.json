@@ -1,0 +1,21 @@
+{
+  "name": "Sniper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.65.1",
+    "telegraf": "^4.16.3",
+    "web3": "^4.7.0"
+  }
+}
